@@ -1,0 +1,21 @@
+
+@function color($color-name) {
+  $color: map-get((
+    'link': #91c200,
+    'pink': #e6556c,
+    'yellow': #f2c230,
+    'lime': #91c200,
+    'blue': #00add9,
+    'lightblue': #eeeefa,
+    'red': #dc3847,
+
+    'white': #ffffff,
+    'light-white': #eeeeee,
+    'light-grey': #dddddd,
+    'grey': #999999,
+    'dark-grey': #6d6d6d,
+    'black': #222222,
+    'none': #000000
+  ), $color-name);
+  @return $color;
+}

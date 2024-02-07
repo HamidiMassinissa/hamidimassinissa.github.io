@@ -1,0 +1,41 @@
+
+.c-links {
+  color: color('dark-grey');
+
+  &__category {
+    padding: 10px 0;
+  }
+
+  &__category-title {
+    padding: 10px 0;
+    font-size: 18px;
+    color: color('black');
+    font-weight: $bold;
+  }
+
+  &__links {
+
+  }
+
+  &__link-group {
+    padding: 4px 0;
+  }
+
+  &__link {
+    display: block;
+    padding: 4px 0;
+    font-size: 15px;
+    color: color('dark-grey');
+
+    &:hover {
+      color: color('link');
+    }
+  }
+
+  &__info {
+    padding: 10px 0;
+    font-size: 12px;
+    color: color('grey');
+    font-style: italic;
+  }
+}

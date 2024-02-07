@@ -1,0 +1,30 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: $font-stack;
+  font-weight: $light;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover,
+  &:active,
+  &:link,
+  &:visited {
+    text-decoration: none;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+input, textarea, keygen, select, button {
+  font-family: inherit;
+}

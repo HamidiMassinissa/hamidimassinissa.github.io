@@ -1,0 +1,27 @@
+
+.c-research-topic {
+  display: block;
+  padding: 0px 0;
+  cursor: pointer;
+  overflow: hidden;
+
+  &__title {
+    float: left;
+    font-size: 12px;
+    line-height: 24px;
+    vertical-align: middle;
+  }
+
+  &__check-icon {
+    float: left;
+    padding-right: 4px;
+    font-size: 12px;
+    line-height: 24px;
+    vertical-align: middle;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    color: color('link');
+  }
+}

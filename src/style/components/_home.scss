@@ -1,0 +1,99 @@
+
+.c-home {
+  &__announcement {
+    background-color: color('black');
+    margin-bottom: 14px;
+    padding: 12px 12px;
+    font-size: 14px;
+    color: color('white');
+    line-height: 1.4em;
+
+    p {
+      padding: 8px 0;
+    }
+    strong {
+      font-weight: $bold;
+    }
+    a {
+      color: color('lime');
+      text-decoration: underline;
+    }
+  }
+
+  &__main {
+      margin: 0 0 50px 0;
+  }
+
+  &__main p {
+      margin: 20px 0 20px 0;
+  }
+
+  &__main-image-container {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__main-image {
+    width: 100%;
+    padding: 0px 30px 0px 0px;
+  }
+
+  &__contact-information {
+      width: 50%;
+      height: 100%;
+      display: inline-block;
+      padding: 0 10px 0 10px;
+      vertical-align: middle;
+  }
+
+  &__contact-information h1 {
+      font-size: 30px;
+  }
+
+  &__research-topics {
+      width: auto;
+      display: inline-block;
+      padding: 0 10px 0 10px;
+      vertical-align: middle;
+  }
+
+  &__research-topics li {
+      list-style-type: circle;
+  }
+
+  &__research-topics h1 {
+      font-size: 20px;
+  }
+
+  &__teaching {
+      margin: 20px 0 20px 0;
+      font-size: 15px;
+  }
+
+  &__teaching ul {
+  }
+
+  &__teaching li {
+      padding: 0 0 0 20px;
+  }
+
+  &__publications-title,&__teaching-title {
+    padding: 10px 0;
+    font-size: 18px;
+    color: color('black');
+    font-weight: $bold;
+  }
+
+  &__publications {
+    padding: 10px 0;
+  }
+}
+
+.content .home h2 {
+	margin: 5px 0 10px 0;
+	padding: 0 0 0 0;
+}
+.content .home h2 img {
+	width: 100%;
+}

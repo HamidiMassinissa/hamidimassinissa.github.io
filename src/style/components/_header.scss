@@ -1,0 +1,46 @@
+.c-header {
+  padding: 20px 0;
+  overflow: hidden;
+
+  &__title {
+    position: relative;
+    //padding-left: 40px+18px;
+  }
+
+  &__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__title-image {
+    height: 40px;
+    width: auto;
+  }
+
+  &__menu-container {
+    padding-top: 12px;
+  }
+
+  &__menu {
+  	overflow: auto;
+  	border-bottom: 1px solid color('dark-grey');
+  	font-size: 14px;
+  }
+
+  &__menu-item {
+    float: left;
+    padding: 12px 0;
+    margin-right: 12px;
+
+    &:hover {
+      color: color('link');
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .c-header {
+    padding: 10px 0;
+  }
+}

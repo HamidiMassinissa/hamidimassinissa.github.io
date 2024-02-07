@@ -1,0 +1,24 @@
+.c-contact {
+  color: color('dark-grey');
+
+  &__items {
+
+  }
+
+  &__label {
+    padding: 15px 0;
+    font-size: 18px;
+    color: color('black');
+  }
+
+  &__content {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+
+  &__map {
+    position: static !important;
+    width: 100%;
+    height: 400px;
+  }
+}

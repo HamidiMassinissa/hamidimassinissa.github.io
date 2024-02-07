@@ -1,0 +1,99 @@
+
+.c-teaching-work {
+  padding: 10px 10px;
+  display: inline-block;
+
+  &__item {
+    padding-bottom: 8px;
+  }
+
+  &__title {
+    font-size: 15px;
+    color: color('black');
+  }
+
+  &__authors {
+    font-size: 12px;
+  }
+
+  &__booktitle {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  &__topics {
+    font-size: 12px;
+  }
+
+  &__tags {
+    //display: inline-block;
+    display: block;
+    padding: 0 4px;
+  }
+
+  &__tag {
+    display: inline-block;
+    margin: 0 2px;
+    background-color: color('dark-grey');
+    padding: 2.5px 4px;
+    font-size: 10px;
+    color: color('white');
+  }
+
+  &__card {
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: all 0.2s ease-out;
+  }
+
+  &__card {
+     display: inline-block;
+     // display: inline-flex;
+     position: relative;
+     // min-height: 150px;
+     height: 200px;
+     // max-width: 310px;
+     width: 310px;
+     padding: 0.75rem 1rem 0.75rem;
+     // padding-right: 0px;  // put illustration to the far-right
+     // padding-top: 0px;  // put illustration to the far-right
+  }
+
+  // &__descr {
+  //     padding-top: 15px;
+  //     padding-right: 10px;  // put illustration to the far-right
+  // }
+
+  &__card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  &__card:hover .card-image.hover-overlay:before {
+    opacity: 0.8;
+  }
+  
+  &__card:hover .card-image.hover-overlay:after {
+    opacity: 0.6;
+  }
+
+  // &__illustration {
+  //     height: 200px;
+  //     width: 90px;
+  // }
+
+  // &__illustration img {
+  //     object-fit: cover;
+  //     object-position: -0% 10;
+  //     width: 90px;
+  //     height: 230px;
+  // }
+
+  // &__card:hover img {
+  //     transform: scale(1.2);
+  //     transition: all .2s;
+  //     transition: all .2s ease;
+  // }
+}

@@ -1,0 +1,35 @@
+.c-footer {
+  padding: 20px 0;
+  overflow: hidden;
+
+  &__body {
+    border-top: 1px solid color('dark-grey');
+    padding: 20px 0px;
+  }
+
+  &__contact {
+    float: left;
+    font-size: 12px;
+    color: color('dark-grey');
+  }
+
+  &__links {
+    float: right;
+  }
+
+  &__link {
+    display: inline-block;
+    font-size: 12px;
+    color: color('grey');
+
+    &:hover {
+      color: color('link');
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .c-footer {
+    padding: 10px 0;
+  }
+}
