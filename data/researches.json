@@ -1,0 +1,348 @@
+{
+  "topics": [
+    {
+      "id": "ind",
+      "title": "Industry 4.0",
+      "tag": "ind",
+      "color": "#8acb88"
+    },
+    {
+      "id": "ehlth",
+      "title": "eHealth",
+      "tag": "eHealth",
+      "color": "#b9314f"
+    },
+    {
+      "id": "dk",
+      "title": "Domain Knowledge Integration",
+      "tag": "DK",
+      "color": "#6f8695"
+    },
+    {
+      "id": "har",
+      "title": "Human Activity Recognition",
+      "tag": "HAR",
+      "color": "#7f7785"
+    }
+  ],
+  "categories": [
+    {
+      "researches": [
+       {
+          "booktitle": "In proceedings of the AAAI conference 2022, February 22 - March 1, 2022.",
+          "authors": "Aomar Osmani, Massinissa Hamidi, and Pegah Alizadeh",
+          "title": "Clustering Approach to Solve Hierarchical Classification Problem Complexity",
+          "links": {
+          },
+          "topics": ["har", "dk"]
+        },
+       {
+          "booktitle": "In proceedings of the PAKDD conference 2022, May 16-19, 2022, Chengdu, China.",
+          "authors": "Aomar Osmani, Massinissa Hamidi",
+          "title": "Reduction of the Position Bias via Multi-Level Learning for Activity Recognition",
+          "links": {
+            "Slides": "presentations/2022-pakdd_slides.pdf",
+            "Video": "https://www.youtube.com/watch?v=0Ws9dI1kLJE"
+          },
+          "topics": ["har", "dk"]
+        }
+      ],
+        "title": "2022"
+    },
+    {
+      "researches": [
+       {
+          "booktitle": "In proceedings of the AAAI conference 2021, February 2-9, 2021.",
+          "authors": "Aomar Osmani, Massinissa Hamidi, and Salah Bouhouche",
+          "title": "Augmented Experiments in Material Engineering Using Machine Learning",
+          "links": {
+            "PDF": "research/aaai-2021/osmani2021augmented.pdf",
+            "Slides": "presentations/2021-aaai_20minute.pdf",
+            "Poster": "research/aaai-2021/osmani2021augmented_poster.pdf",
+            "Video": "https://slideslive.com/38948587/augmented-experiments-in-material-engineering-using-machine-learning"
+          },
+          "topics": ["ind", "dk"]
+        },
+       {
+          "booktitle": "In proceedings of the PAKDD conference 2021, May 11-14, 2021, Delhi, India.",
+          "authors": "Aomar Osmani, Massinissa Hamidi, and Pegah Alizadeh",
+          "title": "Hierarchical Learning of Dependent Concepts for Human Activity Recognition",
+          "links": {
+            "PDF": "research/pakdd-2021/osmani2021hierarchical.pdf",
+            "Suppl.": "research/pakdd-2021/osmani2021hierarchical_supplementary.pdf",
+            "Slides": "presentations/2021-pakdd_slides.pdf",
+            "Video": "https://www.youtube.com/watch?v=_OAFJaCMTLg"
+          },
+          "topics": ["har", "dk"]
+        },
+        {
+          "booktitle": "Sensors Journal 2021, 21(21)",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Human Activity Recognition: a Dynamic Inductive Bias Selection Perspective",
+          "links": {
+            "PDF": "https://mdpi-res.com/d_attachment/sensors/sensors-21-07278/article_deploy/sensors-21-07278-v2.pdf"
+          },
+          "topics": ["har"]
+        },
+        {
+          "booktitle": "In EGC conference, 2021",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Modélisation du processus de génération de données pour la reconnaissance d'activités",
+          "links": {
+            "PDF": "https://editions-rnti.fr/?inprocid=1002673"
+          },
+          "topics": ["har"]
+        }
+      ],
+        "title": "2021"
+    },
+    {
+"researches": [
+       {
+          "booktitle": "In proceedings of the ECML-PKDD conference 2020, September 14-18, 2020.",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Data Generation Process Modeling for Activity Recognition",
+          "links": {
+            "PDF": "https://bitbucket.org/ghentdatascience/ecmlpkdd20-papers/raw/master/ADS/sub_901.pdf",
+            "Slides": "presentations/hamidi2020data.pdf",
+            "Video": "https://slideslive.com/38932385/data-generation-process-modeling-for-activity-recognition"
+          },
+          "topics": ["har"]
+        },
+       {
+          "booktitle": "In Neurocomputing Journal 2020",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Domain Models for Data Sources Integration in HAR",
+          "links": {
+            "PDF": "https://www.sciencedirect.com/science/article/pii/S0925231220317847"
+          },
+          "topics": ["har", "dk"]
+        },
+        {
+          "booktitle": "In proceedings of the UbiComp/ISWC 2020, Mexico, September 12–16, 2020. ACM 2020",
+          "authors": "Massinissa Hamidi and Aomar Osmani and Pegah Alizadeh",
+          "title": "A Multi-View Architecture for the SHL Challenge",
+          "links": {
+            "PDF": "http://www.shl-dataset.org/wp-content/uploads/SHLChallenge2020/short_videos_presentations/06_ubicomp20q-sub1024-cam-i7.pdf",
+            "Slides": "presentations/hamidi2020multi_slides.pdf",
+            "Poster": "presentations/hamidi2020multi_poster.pdf",
+            "Video": "presentations/videos/hamidi2020multi.mp4"
+          },
+          "topics": ["har", "dk"]
+        },
+        {
+          "booktitle": "In Generalization with Deep Learning: for Improvement on Sensing Capability (Book Chapter), 2020",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Combining Domain Knowledge and Deep Learning to Improve HAR Models",
+          "links": {
+            "PDF": ""
+          },
+          "topics": ["har", "dk"]
+        }
+],
+        "title": "2020"
+},
+{
+"researches": [
+        {
+          "booktitle": "In proceedings of the 28th international joint conference on artificial intelligence, IJCAI 2019",
+          "authors": "Aomar Osmani and Massinissa Hamidi and Salah Bouhouche",
+          "title": "Monitoring of a Dynamic System Based on Autoencoders",
+          "links": {
+            "PDF": "https://www.ijcai.org/proceedings/2019/254",
+            "Slides": "presentations/osmani2019monitoring-oral-14-08-2019.pdf",
+            "Code": "https://github.com/hamidimassinissa/vibration-sae"
+          },
+          "topics": ["ind", "dk"]
+        },
+        {
+          "booktitle": "Knowledge Representation & Reasoning Meets Machine Learning workshop, KR2ML@NeurIPS, 2019",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "HAR Data Generation Model to Highly Reduce Learning Space",
+          "links": {
+            "PDF": "https://kr2ml.github.io/2019/papers",
+            "Code": "https://github.com/alphaequivalence/shl-nas"
+          },
+          "topics": ["har", "dk"]
+        },
+        {
+          "booktitle": "In Deep Learning for Human Activity Recognition workshop @IJCAI, 2019",
+          "authors": "Massinissa Hamidi and Aomar Osmani",
+          "title": "Improving Human Activity Recognition with Data Sources Integration",
+          "links": {
+            "PDF": "https://sites.google.com/site/zhangleuestc/deep-learning-for-human-activity-recognition",
+            "Slides": "presentations/hamidi2019improving-oral-10-08-2019.pdf",
+            "Code": "https://github.com/hamidimassinissa/shl-infrastructure"
+          },
+          "topics": ["har", "dk"]
+        },
+        {
+          "booktitle": "In the Human Activity Sensing Corpus and Application (HASCA) Book, 2019",
+          "authors": "Aomar Osmani and Massinissa Hamidi",
+          "title": "Bayesian Optimization of Neural Architectures for Human Activity Recognition",
+          "links": {
+            "PDF": "https://www.springer.com/gp/book/9783030130008",
+            "Code": "https://github.com/hamidimassinissa/hasca-shl"
+          },
+          "topics": ["har", "dk"]
+        }
+],
+        "title": "2019"
+},
+{
+"researches": [
+
+        {
+          "booktitle": "In proceedings of the UbiComp/ISWC 2018 Adjunct, Singapore, October 08-12, 2018. ACM 2018",
+          "authors": "Aomar Osmani and Massinissa Hamidi",
+          "title": "Hybrid and Convolutional Neural Networks for Locomotion Recognition",
+          "links": {
+            "PDF": "https://dl.acm.org/citation.cfm?id=3267520",
+            "Code": "https://github.com/hamidimassinissa/hasca-shl",
+            "Poster": "research/ubicomp-2018/osmani2018hybrid_POSTER.pdf"
+          },
+          "topics": ["har"]
+        }
+],
+        "title": "2018"
+},
+{
+"researches": [
+        {
+          "booktitle": "In 2017 AAAI Fall Symposia, Arlington, Virginia, USA, November 9-11, 2017. AAAI Press 2017",
+          "authors": "Aomar Osmani and Massinissa Hamidi and Abdelghani Chibani",
+          "title": "Platform for Assessment and Monitoring of Infant Comfort",
+          "links": {
+            "PDF": "https://aaai.org/ocs/index.php/FSS/FSS17/paper/view/15989/15285",
+            "Code": "https://github.com/hamidimassinissa/infant-cries-algo-eval"
+          },
+          "topics": ["ehlth"]
+        },
+        {
+          "booktitle": "In the 29th IEEE International Conference on Tools with Artificial Intelligence, ICTAI 2017, Boston, MA, USA, November 6-8, 2017. IEEE Computer Society 2017",
+          "authors": "Aomar Osmani and Massinissa Hamidi and Abdelghani Chibani",
+          "title": "Machine Learning Approach for Infant Cry Interpretation",
+          "links": {
+            "PDF": "https://ieeexplore.ieee.org/document/8371941",
+            "Code": "https://github.com/hamidimassinissa/infant-cries-ml"
+          },
+          "topics": ["ehlth"]
+        }
+     ],
+      "title": "2017"
+    },
+    {
+      "researches": [
+      ],
+      "title": "Submitted"
+    },
+    {
+      "researches": [
+        {
+          "booktitle": "MSc Thesis, Univ. Paris Diderot, Sorbonne Paris Cité, 2017",
+          "authors": "Massinissa Hamidi",
+          "title": "On the Monitoring of Infant Comfort Using Machine Learning Techniques",
+          "links": {
+            "PDF": "research/misc/massinissa-hamidi-MSc.pdf",
+            "Slides": "presentations/massinissa-hamidi-MSc-prez.pdf",
+            "Code": "https://github.com/hamidimassinissa/infant-cries-dunstan"
+          },
+          "topics": ["ehlth", "dk"]
+        }
+      ],
+      "title": "Manuscripts"
+    },
+    {
+      "researches": [
+        {
+          "booktitle": "In AAAI@PFIA, Plate-Forme Intelligence Artificielle, Bordeaux, France, June 29th, 2021.",
+          "authors": "Massinissa Hamidi",
+          "title": "Augmented Experiments in Material Engineering Using Machine Learning",
+          "links": {
+            "Slides": "presentations/2020-06-29-aaai@pfia22.pdf"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "In MAARS Seminar, LIPN, Sorbonne Paris Nord, April 22nd, 2021.",
+          "authors": "Massinissa Hamidi",
+          "title": "Quelques problèmes d'apprentissage dans le cadre de l'internet des objets",
+          "links": {
+            "Slides": "presentations/2021-04-22_MAARS-Seminar.pdf"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "In ECML-PKDD conference, Gent Belgium, September 17th, 2020.",
+          "authors": "Massinissa Hamidi",
+          "title": "Data Generation Process Modeling for Activity Recognition",
+          "links": {
+            "Slides": "presentations/hamidi2020data.pdf"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "In the international joint conference on artificial interlligence (ijcai), Macao SAR China, August 14th, 2019.",
+          "authors": "Massinissa Hamidi",
+          "title": "Monitoring a Dynamic System Based on Autoencoders",
+          "links": {
+            "Slides": "presentations/osmani2019monitoring-oral-14-08-2019.pdf"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "In workshop on deep learning for human activity recognition DLforHAR@IJCAI, Macao SAR China, August 10th, 2019.",
+          "authors": "Massinissa Hamidi",
+          "title": "Improving Human Activity Recognition with Data Sources Integration",
+          "links": {
+            "Slides": "presentations/hamidi2019improving-oral-10-08-2019.pdf"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "In the LIPN Junior Seminar, Sorbonne Paris Cité, April 18, 2019.",
+          "authors": "Massinissa Hamidi",
+          "title": "Improving Human Activity Recognition with Domain Knowledge Composition",
+          "links": {
+            "Slides": "presentations/junior-seminar-18-04-2019.pdf"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "In the Renault-LIPN Seminar, Sorbonne Paris Cité, November 28, 2018.",
+          "authors": "Massinissa Hamidi",
+          "title": "Apprentissage à partir des exemples et des modèles du domaine dans le cas des objets connectés",
+          "links": {
+            "Slides": "presentations/renault-seminar-28-11-2018.pdf"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "In the 27th scientific day of the doctoral school Galilée, Sorbonne Paris Cité, June 7, 2019.",
+          "authors": "Massinissa Hamidi",
+          "title": "Apprentissage à partir des exemples et des modèles du domaine dans le cas des objets connectés",
+          "links": {
+            "Slides": "presentations/scientific-day-Galilee-07-06-2019-prez.pdf",
+            "Poster": "presentations/scientific-day-Galilee-07-06-2019-poster.pdf"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "the 3rd data science summer school, Polytechnique, June 24, 2019.",
+          "authors": "Massinissa Hamidi",
+          "title": "Learning from examples and domain models in the internet of things",
+          "links": {
+            "Poster": "https://www.ds3-datascience-polytechnique.fr/wp-content/uploads/2019/06/DS3-290_2019_v2.pdf"
+          },
+          "topics": ["ml", "iot"]
+        }
+      ],
+      "title": "Presentations"
+    },
+    {
+      "researches": [
+      ],
+      "title": "Software"
+    }
+  ]
+}

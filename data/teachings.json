@@ -1,0 +1,144 @@
+{
+  "topics": [
+    {
+      "id": "gal",
+      "title": "Institut Galilée",
+      "tag": "Galilée",
+      "color": "#8acb88"
+    },
+    {
+      "id": "efr",
+      "title": "Efrei Paris",
+      "tag": "Efrei",
+      "color": "#ffbf46"
+    },
+    {
+      "id": "m2",
+      "title": "Master 2",
+      "tag": "Master 2",
+      "color": "#b231ff"
+    },
+    {
+      "id": "m1",
+      "title": "Master 1",
+      "tag": "Master 1",
+      "color": "#b9314f"
+    },
+    {
+      "id": "l3",
+      "title": "Licence 3",
+      "tag": "Licence 3",
+      "color": "#6f8695"
+    }
+  ],
+  "categories": [
+    {
+      "researches": [
+        {
+          "id": "gal-l3-19-20",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Aomar Osmani and Massinissa Hamidi and Sayed Modaresi",
+          "title": "Introduction à l'internet des objets",
+          "links": {
+            "Projects": "https://roboticsmind.github.io/project",
+            "GitHub": "https://github.com/institut-galilee"
+          },
+          "topics": ["gal", "l3"]
+        },
+        {
+          "id": "gal-m1-19-20",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Aomar Osmani and Massinissa Hamidi and Sayed Modaresi",
+          "title": "Introduction à l'internet des objets",
+          "links": {
+            "Projects": "https://roboticsmind.github.io/project",
+            "GitHub": "https://github.com/institut-galilee"
+          },
+          "topics": ["gal", "m1"]
+        },
+        {
+          "id": "gal-m2-19-20",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Aomar Osmani and Massinissa Hamidi and Sayed Modaresi",
+          "title": "Introduction à l'internet des objets",
+          "links": {
+            "Projects": "https://roboticsmind.github.io/project",
+            "GitHub": "https://github.com/institut-galilee"
+          },
+          "topics": ["gal", "m2"]
+        },
+        {
+          "id": "efr-m1-19-20",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Aomar Osmani and Massinissa Hamidi and Sayed Modaresi",
+          "title": "Introduction à l'internet des objets",
+          "links": {
+            "Projects": "https://roboticsmind.github.io/project",
+            "GitHub": "https://github.com/efrei-paris-sud"
+          },
+          "topics": ["efr", "m1"]
+        }
+     ],
+      "title": "2019-2020"
+    },
+    {
+      "researches": [
+        {
+          "id": "gal-m1-18-19",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Aomar Osmani and Massinissa Hamidi",
+          "title": "Introduction à l'internet des objets",
+          "links": {
+            "Projects": "https://roboticsmind.github.io/project",
+            "GitHub": "https://github.com/institut-galilee/"
+          },
+          "topics": ["gal", "m1"]
+        },
+        {
+          "id": "efr-m1-18-19",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Aomar Osmani and Massinissa Hamidi",
+          "title": "Internet of Things",
+          "links": {
+            "Projects": "https://roboticsmind.github.io/project",
+            "GitHub": "https://github.com/efrei-paris-sud"
+          },
+          "topics": ["efr", "m1"]
+        }
+     ],
+      "title": "2018-2019"
+    },
+    {
+      "researches": [
+        {
+          "id": "gal-m1-17-18",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Aomar Osmani and Massinissa Hamidi",
+          "title": "Introduction à l'internet des objets",
+          "links": {
+            "Projects": "https://roboticsmind.github.io/project",
+            "GitHub": "https://github.com/institut-galilee"
+          },
+          "topics": ["gal", "m1"]
+        },
+        {
+          "id": "efr-m1-17-18",
+          "booktitle": "Découverte du processus, bout-en-bout, de collecte, transmission et de stockage et traitement des données de l'internet des objets",
+          "authors": "Aomar Osmani and Massinissa Hamidi",
+          "title": "Internet of Things",
+          "links": {
+            "Projects": "https://roboticsmind.github.io/project",
+            "GitHub": "https://github.com/efrei-paris-sud"
+          },
+          "topics": ["efr", "m1"]
+        }
+     ],
+      "title": "2017-2018"
+    },
+    {
+      "researches": [
+      ],
+      "title": "Misc"
+    }
+  ]
+}
