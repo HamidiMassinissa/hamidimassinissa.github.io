@@ -7,14 +7,14 @@ export default class Footer extends Component {
       <footer className="c-footer">
         <div className="c-footer__body">
           <div className="c-footer__contact">
-            Tel. +33 1 49.40.36.09 <br />
-            Institut Galilée, Université Paris 13 <br/>
-            99, avenue Jean-Baptiste Clément, 93430 – Villetaneuse
+            Tél. +33 (0)1 64 85 35 07 <br />
+            IBGBI, Université Évry Paris-Saclay <br/>
+            23, Boulevard de France, 91034 – Évry
           </div>
           <div className="c-footer__links">
             <a
               className="c-footer__link"
-              href="https://github.com/roboticsmind/roboticsmind.github.io"
+              href="https://github.com/hamidimassinissa/hamidimassinissa.github.io"
               target="_blank"
             >
               Admin
