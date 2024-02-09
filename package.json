@@ -12,12 +12,10 @@
     "google-map-react": "^2.1.9",
     "is-url-external": "^1.0.3",
     "json-loader": "^0.5.7",
-    "leaflet": "^1.7.1",
+    "leaflet": "^1.9.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-google-map": "^3.1.1",
-    "react-google-maps-loader": "^4.3.0",
-    "react-leaflet": "^3.1.0",
+    "react-leaflet": "^3.2.5",
     "react-markdown": "^6.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
@@ -27,8 +25,8 @@
     "xhr": "^2.6.0"
   },
   "scripts": {
-  	"predeploy": "npm run build",
-  	"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,16 +38,9 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }

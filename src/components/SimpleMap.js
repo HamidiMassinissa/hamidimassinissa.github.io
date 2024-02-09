@@ -1,33 +1,38 @@
 import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
- 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
- 
-class SimpleMap extends Component {
-  static defaultProps = {
-    center: {  // lab position
-      lat: 48.9548,
-      lng: 2.3430
-    },
-    zoom: 15
-  };
- 
+//import GoogleMapReact from 'google-map-react';
+import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
+
+import 'leaflet/dist/leaflet.css'
+
+// from https://stackoverflow.com/a/69983307/3441514
+import marker from '../assets/marker-icon-2x.png';
+import { Icon } from 'leaflet'
+const myIcon = new Icon({
+ iconUrl: marker,
+ iconSize: [25,41]
+})
+
+
+class SimpleMap extends Component { 
   render() {
     return (
-      // Important! Always set the container height explicitly
-      <div style={{ height: '400px', width: '100%' }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyCCasTGLS-paFusfWxQADc_of54oBAVJAM' }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
-        >
-          <AnyReactComponent
-            lat={48.9548}
-            lng={2.3430}
-            text="Lab position"
-          />
-        </GoogleMapReact>
-      </div>
+    	<MapContainer style={{ height: "450px", width: "100%" }} center={[48.625740, 2.440130]} zoom={13} scrollWheelZoom={true}>
+				<TileLayer
+					attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+					url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+				/>
+				<Marker position={[48.625740, 2.440130]} icon={myIcon}>
+					<Popup>
+						SITE IBGBI <br/>
+						Bâtiment IBGBI – 2ème étage<br/>
+						23, Boulevard de France<br/>
+						91034 – EVRY<br/>
+						Contact<br/>
+						Mme Murielle Bourgeois<br/>
+						Tél : +33 (0)1 64 85 35 07<br/>
+					</Popup>
+				</Marker>
+			</MapContainer>
     );
   }
 }
