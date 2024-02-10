@@ -21,7 +21,10 @@
   }
 
   &__main {
-      margin: 0 0 50px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 50px 0;
   }
 
   &__main p {
@@ -40,7 +43,7 @@
   }
 
   &__contact-information {
-      width: 50%;
+      width: 45%;
       height: 100%;
       display: inline-block;
       padding: 0 10px 0 10px;
@@ -52,11 +55,24 @@
   }
 
   &__research-topics {
-      width: auto;
+      width: 30%;
       display: inline-block;
       padding: 0 10px 0 10px;
       vertical-align: middle;
   }
+  
+  @media screen and (max-width: 600px) {
+  &__main {
+    flex-direction: column;
+    align-items: center;
+  }
+  &__main-image-container {
+    width: 50%;
+  }
+  &__contact-information, &__research-topics {
+    width: 90%;
+  }
+}
 
   &__research-topics li {
       list-style-type: circle;
