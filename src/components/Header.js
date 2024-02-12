@@ -7,6 +7,11 @@ export default class Header extends Component {
   render() {
     return (
       <header className="c-header">
+      <a href="/">
+      	<div class="logo">
+      	  	<img src="images/logo_ibiscsaclay.png"/>
+      	</div>
+      </a>
         <div className="c-header__menu-container">
           <div className="c-header__menu">
             <Link
