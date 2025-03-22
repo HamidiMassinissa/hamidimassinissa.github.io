@@ -9,7 +9,7 @@ export default class Header extends Component {
       <header className="c-header">
       <a href="/">
       	<div class="logo">
-      	  	<img src="images/logo_ibiscsaclay.png"/>
+      	  	<img src="images/logo_univ-evry.png"/>
       	</div>
       </a>
         <div className="c-header__menu-container">
